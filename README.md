@@ -5,6 +5,12 @@
 A dark Omarchy/Hyprland theme. Pure black background, warm grey text, muted
 sage accents. Includes matching Neovim and VS Code themes.
 
+## Screenshots
+
+![Noir desktop](screenshot1.png)
+
+![Noir](screenshot2.png)
+
 ## Contents
 
 | File               | Purpose                                            |
