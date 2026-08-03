@@ -8,13 +8,13 @@ theme[main_fg]="#c1c1c1"
 theme[title]="#c1c1c1"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#a89a72"
+theme[hi_fg]="#8a9a7b"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#505050"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#a89a72"
+theme[selected_fg]="#8a9a7b"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#505050"
@@ -31,8 +31,8 @@ theme[proc_misc]="#c1c1c1"
 # CPU, Memory, Network, Proc box outline colors
 theme[cpu_box]="#999999"
 theme[mem_box]="#c1c1c1"
-theme[net_box]="#a89a72"
-theme[proc_box]="#a89a72"
+theme[net_box]="#8a9a7b"
+theme[proc_box]="#8a9a7b"
 
 # Box divider line and small boxes line color
 theme[div_line]="#505050"
@@ -40,7 +40,7 @@ theme[div_line]="#505050"
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#c1c1c1"
 theme[temp_mid]="#888888"
-theme[temp_end]="#a89a72"
+theme[temp_end]="#8a9a7b"
 
 # CPU graph colors (Teal -> Lavender)
 theme[cpu_start]="#aa9988"
@@ -59,8 +59,8 @@ theme[cached_end]="#999999"
 
 # Mem/Disk available meter (Peach -> Red)
 theme[available_start]="#888888"
-theme[available_mid]="#a89a72"
-theme[available_end]="#a89a72"
+theme[available_mid]="#8a9a7b"
+theme[available_end]="#8a9a7b"
 
 # Mem/Disk used meter (Green -> Sky)
 theme[used_start]="#c1c1c1"
@@ -69,8 +69,8 @@ theme[used_end]="#aaaaaa"
 
 # Download graph colors (Peach -> Red)
 theme[download_start]="#888888"
-theme[download_mid]="#a89a72"
-theme[download_end]="#a89a72"
+theme[download_mid]="#8a9a7b"
+theme[download_end]="#8a9a7b"
 
 # Upload graph colors (Green -> Sky)
 theme[upload_start]="#c1c1c1"

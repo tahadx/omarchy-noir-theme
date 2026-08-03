@@ -1,4 +1,4 @@
-accent = "#a89a72"
+accent = "#8a9a7b"
 cursor = "#c1c1c1"
 
 # Primary colors
@@ -11,7 +11,7 @@ selection_background = "#333333"
 
 # Normal colors (ANSI 0-7)
 color0 = "#1c1c1c"
-color1 = "#a89a72"
+color1 = "#8a9a7b"
 color2 = "#c1c1c1"
 color3 = "#888888"
 color4 = "#aaaaaa"
@@ -21,7 +21,7 @@ color7 = "#c1c1c1"
 
 # Bright colors (ANSI 8-15)
 color8 = "#505050"
-color9 = "#a89a72"
+color9 = "#8a9a7b"
 color10 = "#c1c1c1"
 color11 = "#888888"
 color12 = "#aaaaaa"

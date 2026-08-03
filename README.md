@@ -3,7 +3,7 @@
 ![Noir](icon.png)
 
 A dark Omarchy/Hyprland theme. Pure black background, warm grey text, muted
-gold accents. Includes matching Neovim and VS Code themes.
+sage accents. Includes matching Neovim and VS Code themes.
 
 ## Contents
 
@@ -13,7 +13,7 @@ gold accents. Includes matching Neovim and VS Code themes.
 | `neovim.lua`       | Neovim colorscheme spec + plugin                   |
 | `vscode.json`      | VS Code theme name + marketplace extension         |
 | `btop.theme`       | btop color theme                                   |
-| `icons.theme`      | Icon set (noir-gold custom theme)                  |
+| `icons.theme`      | Icon set (noir-sage custom theme)                 |
 | `icon.png`         | Theme/logo icon                                    |
 | `backgrounds/`     | Wallpapers, sorted; first = default                |
 | `preview.png`      | Theme preview for the theme picker (1800x1012)     |
@@ -43,13 +43,13 @@ The theme name (`noir`) is derived from the repo name.
 
 ## Icon set
 
-This theme's `icons.theme` sets the GNOME icon theme to **`noir-gold`**, a
-custom folder icon theme matching the gold accent. Omarchy only applies the
+This theme's `icons.theme` sets the GNOME icon theme to **`noir-sage`**, a
+custom folder icon theme matching the sage accent. Omarchy only applies the
 name, so install the icons once:
 
 ```bash
-git clone https://github.com/tahasadough/noir-gold.git /tmp/noir-gold
-/tmp/noir-gold/install.sh
+git clone https://github.com/tahasadough/noir-sage.git /tmp/noir-sage
+/tmp/noir-sage/install.sh
 ```
 
 Then reapply the theme so the icon setting takes effect:
