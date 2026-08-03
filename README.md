@@ -41,6 +41,26 @@ omarchy theme install https://github.com/tahasadough/omarchy-noir-theme.git
 
 The theme name (`noir`) is derived from the repo name.
 
+## Icon set
+
+This theme's `icons.theme` sets the GNOME icon theme to **`noir-gold`**, a
+custom folder icon theme matching the gold accent. Omarchy only applies the
+name, so install the icons once:
+
+```bash
+git clone https://github.com/tahasadough/noir-gold.git /tmp/noir-gold
+/tmp/noir-gold/install.sh
+```
+
+Then reapply the theme so the icon setting takes effect:
+
+```bash
+omarchy theme set noir
+```
+
+Alternatively, point `icons.theme` at any installed Yaru variant (e.g.
+`Yaru-dark`) and the theme will use it instead.
+
 ## Matching colorschemes
 
 - **Neovim**: `tahasadough/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
