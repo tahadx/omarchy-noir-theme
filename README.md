@@ -41,7 +41,7 @@ The theme name (`noir`) is derived from the repo name.
 ## Matching colorschemes
 
 - **Neovim**: `tahasadough/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
-- **VS Code**: `taha.noir` extension (auto-installed by omarchy on theme set)
+- **VS Code**: `tahasadough.noir` extension (auto-installed by omarchy on theme set)
 
 ## License
 
