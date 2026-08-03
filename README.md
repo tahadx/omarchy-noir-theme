@@ -1,7 +1,9 @@
 # Noir - Omarchy theme
 
+![Noir](icon.png)
+
 A dark Omarchy/Hyprland theme. Pure black background, warm grey text, muted
-teal accents. Includes matching Neovim and VS Code themes.
+gold accents. Includes matching Neovim and VS Code themes.
 
 ## Contents
 
@@ -11,7 +13,8 @@ teal accents. Includes matching Neovim and VS Code themes.
 | `neovim.lua`       | Neovim colorscheme spec + plugin                   |
 | `vscode.json`      | VS Code theme name + marketplace extension         |
 | `btop.theme`       | btop color theme                                   |
-| `icons.theme`      | Icon set (Yaru-gray)                               |
+| `icons.theme`      | Icon set (noir-gold custom theme)                  |
+| `icon.png`         | Theme/logo icon                                    |
 | `backgrounds/`     | Wallpapers, sorted; first = default                |
 | `preview.png`      | Theme preview for the theme picker (1800x1012)     |
 | `preview-unlock.png` | Lock-screen preview (1920x1080)                  |
