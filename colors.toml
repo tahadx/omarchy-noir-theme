@@ -1,0 +1,30 @@
+accent = "#5f8787"
+cursor = "#c1c1c1"
+
+# Primary colors
+foreground = "#c1c1c1"
+background = "#000000"
+
+# Selection colors
+selection_foreground = "#c1c1c1"
+selection_background = "#333333"
+
+# Normal colors (ANSI 0-7)
+color0 = "#1c1c1c"
+color1 = "#5f8787"
+color2 = "#c1c1c1"
+color3 = "#888888"
+color4 = "#aaaaaa"
+color5 = "#999999"
+color6 = "#aa9988"
+color7 = "#c1c1c1"
+
+# Bright colors (ANSI 8-15)
+color8 = "#505050"
+color9 = "#5f8787"
+color10 = "#c1c1c1"
+color11 = "#888888"
+color12 = "#aaaaaa"
+color13 = "#999999"
+color14 = "#aa9988"
+color15 = "#ffffff"
