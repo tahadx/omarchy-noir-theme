@@ -7,9 +7,9 @@ sage accents. Includes matching Neovim and VS Code themes.
 
 ## Screenshots
 
-![Noir desktop](screenshot1.png)
+![Noir desktop](preview.png)
 
-![Noir](screenshot2.png)
+![Noir](preview-unlock.png)
 
 ## Contents
 
