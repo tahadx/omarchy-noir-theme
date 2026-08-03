@@ -15,7 +15,7 @@ teal accents. Includes matching Neovim and VS Code themes.
 | `backgrounds/`     | Wallpapers, sorted; first = default                |
 | `preview.png`      | Theme preview for the theme picker (1800x1012)     |
 | `preview-unlock.png` | Lock-screen preview (1920x1080)                  |
-| `unlock.png`       | Lock-screen preview (1108x523)                     |
+| `unlock.png`       | Lock-screen preview (800x378)                      |
 
 ## Editing this theme
 
@@ -33,16 +33,16 @@ teal accents. Includes matching Neovim and VS Code themes.
 ## Installing
 
 ```bash
-omarchy theme install https://github.com/taha/omarchy-noir-theme.git
+omarchy theme install https://github.com/tahasadough/omarchy-noir-theme.git
 ```
 
 The theme name (`noir`) is derived from the repo name.
 
 ## Matching colorschemes
 
-- **Neovim**: `taha/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
+- **Neovim**: `tahasadough/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
 - **VS Code**: `taha.noir` extension (auto-installed by omarchy on theme set)
 
 ## License
 
-MIT (c) taha 2026
+MIT (c) Taha Sadough 2026
