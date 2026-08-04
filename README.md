@@ -42,7 +42,7 @@ sage accents. Includes matching Neovim and VS Code themes.
 ## Installing
 
 ```bash
-omarchy theme install https://github.com/tahasadough/omarchy-noir-theme.git
+omarchy theme install https://github.com/tahadx/omarchy-noir-theme.git
 ```
 
 The theme name (`noir`) is derived from the repo name.
@@ -54,7 +54,7 @@ custom folder icon theme matching the sage accent. Omarchy only applies the
 name, so install the icons once:
 
 ```bash
-git clone https://github.com/tahasadough/noir-sage.git /tmp/noir-sage
+git clone https://github.com/tahadx/noir-sage.git /tmp/noir-sage
 /tmp/noir-sage/install.sh
 ```
 
@@ -69,8 +69,8 @@ Alternatively, point `icons.theme` at any installed Yaru variant (e.g.
 
 ## Matching colorschemes
 
-- **Neovim**: `tahasadough/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
-- **VS Code**: `tahasadough.noir-omarchy` extension (auto-installed by omarchy on theme set)
+- **Neovim**: `tahadx/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
+- **VS Code**: `tahadx.noir-omarchy` extension (auto-installed by omarchy on theme set)
 
 ## License
 

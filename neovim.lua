@@ -1,6 +1,6 @@
 return {
   {
-    "tahasadough/noir.nvim",
+    "tahadx/noir.nvim",
     priority = 1000,
   },
   {
