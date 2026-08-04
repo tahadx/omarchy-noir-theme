@@ -70,7 +70,7 @@ Alternatively, point `icons.theme` at any installed Yaru variant (e.g.
 ## Matching colorschemes
 
 - **Neovim**: `tahadx/noir.nvim` (set as `colorscheme = "noir"` in `neovim.lua`)
-- **VS Code**: `tahadx.noir-omarchy` extension (auto-installed by omarchy on theme set)
+- **VS Code**: `tahasadough.noir-omarchy` extension (auto-installed by omarchy on theme set)
 
 ## License
 
