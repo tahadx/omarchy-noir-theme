@@ -1,5 +1,5 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#000000"
+theme[main_bg]="#1c1c1c"
 
 # Main text color
 theme[main_fg]="#c1c1c1"
@@ -8,31 +8,41 @@ theme[main_fg]="#c1c1c1"
 theme[title]="#c1c1c1"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#8a9a7b"
+theme[hi_fg]="#aaaaaa"
 
-# Background color of selected item in processes box
-theme[selected_bg]="#505050"
+# Background color of selected item in processes box. #c1c1c1 maps to
+# the foreground role in aether (terminal selection wants inverted contrast),
+# which renders as plain white on dark themes - indistinguishable from the
+# main text. #333333 gives a subtle highlight that still reads on a
+# dark background and is invisible-but-harmless on light backgrounds.
+theme[selected_bg]="#333333"
 
-# Foreground color of selected item in processes box
-theme[selected_fg]="#8a9a7b"
+# Foreground color of selected item in processes box. Use #c1c1c1 so
+# the row text stays readable on the lighter_bg highlight; the previous
+# #aaaaaa produced low-contrast blue-on-white in dark themes.
+theme[selected_fg]="#c1c1c1"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#505050"
 
-# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling.
+# #cacaca caps at #ffffff when the foreground is already pure white, so we
+# just bind it to #c1c1c1 directly.
 theme[graph_text]="#c1c1c1"
 
-# Background color of the percentage meters
-theme[meter_bg]="#505050"
+# Background color of the percentage meters. Same fix as selected_bg - the
+# previous #c1c1c1 collapsed to the main fg.
+theme[meter_bg]="#333333"
 
-# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#c1c1c1"
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
+# Use #aa9988 for a distinct accent instead of #cacaca which capped to white.
+theme[proc_misc]="#aa9988"
 
 # CPU, Memory, Network, Proc box outline colors
 theme[cpu_box]="#999999"
 theme[mem_box]="#c1c1c1"
 theme[net_box]="#8a9a7b"
-theme[proc_box]="#8a9a7b"
+theme[proc_box]="#aaaaaa"
 
 # Box divider line and small boxes line color
 theme[div_line]="#505050"
@@ -42,42 +52,42 @@ theme[temp_start]="#c1c1c1"
 theme[temp_mid]="#888888"
 theme[temp_end]="#8a9a7b"
 
-# CPU graph colors (Teal -> Lavender)
+# CPU graph colors (Teal -> Blue -> Purple)
 theme[cpu_start]="#aa9988"
 theme[cpu_mid]="#aaaaaa"
 theme[cpu_end]="#999999"
 
-# Mem/Disk free meter (Mauve -> Lavender -> Blue)
+# Mem/Disk free meter
 theme[free_start]="#999999"
 theme[free_mid]="#aaaaaa"
 theme[free_end]="#aa9988"
 
-# Mem/Disk cached meter (Sapphire -> Lavender)
+# Mem/Disk cached meter
 theme[cached_start]="#aaaaaa"
 theme[cached_mid]="#aa9988"
 theme[cached_end]="#999999"
 
-# Mem/Disk available meter (Peach -> Red)
+# Mem/Disk available meter
 theme[available_start]="#888888"
 theme[available_mid]="#8a9a7b"
 theme[available_end]="#8a9a7b"
 
-# Mem/Disk used meter (Green -> Sky)
+# Mem/Disk used meter (Green -> Teal -> Blue)
 theme[used_start]="#c1c1c1"
 theme[used_mid]="#aa9988"
 theme[used_end]="#aaaaaa"
 
-# Download graph colors (Peach -> Red)
+# Download graph colors
 theme[download_start]="#888888"
 theme[download_mid]="#8a9a7b"
 theme[download_end]="#8a9a7b"
 
-# Upload graph colors (Green -> Sky)
+# Upload graph colors (Green -> Teal -> Blue)
 theme[upload_start]="#c1c1c1"
 theme[upload_mid]="#aa9988"
 theme[upload_end]="#aaaaaa"
 
-# Process box color gradient for threads, mem and cpu usage (Sapphire -> Mauve)
+# Process box color gradient for threads, mem and cpu usage
 theme[process_start]="#aa9988"
 theme[process_mid]="#aaaaaa"
 theme[process_end]="#999999"
