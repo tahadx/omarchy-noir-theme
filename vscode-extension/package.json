@@ -1,0 +1,28 @@
+{
+	"name": "noir-omarchy",
+	"displayName": "Noir Omarchy",
+	"description": "A dark theme for Visual Studio Code with muted sage accents.",
+	"version": "0.1.2",
+	"publisher": "tahasadough",
+	"license": "MIT",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tahasadough/noir-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Noir",
+				"uiTheme": "vs-dark",
+				"path": "./themes/noir-color-theme.json"
+			}
+		]
+	}
+}
