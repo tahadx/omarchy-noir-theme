@@ -755,7 +755,9 @@
 				"meta.tag.any",
 				"tag",
 				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag.end"
+				"punctuation.definition.tag.end",
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.id"
 			],
 			"settings": {
 				"foreground": "#8a9a7b"
@@ -764,8 +766,6 @@
 		{
 			"scope": [
 				"entity.other.attribute-name",
-				"entity.other.attribute-name.id",
-				"entity.other.attribute-name.class",
 				"entity.other.attribute-name.selector",
 				"entity.other.attribute-name.tag",
 				"entity.other.attribute-name.attribute",

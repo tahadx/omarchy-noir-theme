@@ -2,7 +2,7 @@
 	"name": "noir-omarchy",
 	"displayName": "Noir Omarchy",
 	"description": "A dark theme for Visual Studio Code with muted sage accents.",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "tahasadough",
 	"license": "MIT",
 	"icon": "icon.png",
