@@ -3,22 +3,22 @@
 mode = "dark"
 
 # UI Colors (extended)
-accent = "#aaaaaa"
+accent = "#8a9a7b"
 cursor = "#c1c1c1"
 
 # Primary colors
 foreground = "#c1c1c1"
-background = "#1c1c1c"
+background = "#000000"
 
 # Selection colors
-selection_foreground = "#1c1c1c"
-selection_background = "#c1c1c1"
+selection_foreground = "#c1c1c1"
+selection_background = "#333333"
 
 # Background shades
-bg = "#1c1c1c"
+bg = "#000000"
 lighter_bg = "#333333"
-dark_bg = "#151515"
-darker_bg = "#0e0e0e"
+dark_bg = "#1c1c1c"
+darker_bg = "#000000"
 
 # Foreground shades
 fg = "#c1c1c1"

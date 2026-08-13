@@ -4,14 +4,14 @@
  */
 
 /* Dynamic color palette from Noir */
-@define-color background #1c1c1c;
+@define-color background #000000;
 @define-color foreground #c1c1c1;
 
 @define-color black #1c1c1c;
 @define-color red #8a9a7b;
 @define-color green #c1c1c1;
 @define-color yellow #888888;
-@define-color blue #aaaaaa;
+@define-color blue #8a9a7b;
 @define-color magenta #999999;
 @define-color cyan #aa9988;
 @define-color white #c1c1c1;
@@ -19,7 +19,7 @@
 @define-color bright_red #8a9a7b;
 @define-color bright_green #c1c1c1;
 @define-color bright_yellow #888888;
-@define-color bright_blue #aaaaaa;
+@define-color bright_blue #8a9a7b;
 @define-color bright_magenta #999999;
 @define-color bright_cyan #aa9988;
 @define-color bright_white #ffffff;

@@ -1,7 +1,15 @@
 [colors]
 [colors.primary]
-background = "#1c1c1c"
+background = "#000000"
 foreground = "#c1c1c1"
+
+[colors.cursor]
+text   = "#000000"
+cursor = "#c1c1c1"
+
+[colors.selection]
+text = "#c1c1c1"
+background = "#333333"
 
 [colors.normal]
 black   = "#1c1c1c"
@@ -22,7 +30,3 @@ blue    = "#aaaaaa"
 magenta = "#999999"
 cyan    = "#aa9988"
 white   = "#ffffff"
-
-[colors.cursor]
-text   = "#1c1c1c"
-cursor = "#c1c1c1"

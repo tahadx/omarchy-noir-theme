@@ -1,7 +1,7 @@
 name: Noir
-accent: "#aaaaaa"
-cursor: "#aaaaaa"
-background: "#1c1c1c"
+accent: "#8a9a7b"
+cursor: "#c1c1c1"
+background: "#000000"
 foreground: "#c1c1c1"
 details: darker
 
