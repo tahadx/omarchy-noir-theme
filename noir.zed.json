@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "aether",
-  "author": "Aether",
+  "name": "Noir",
+  "author": "Taha Sadough",
   "themes": [
     {
-      "name": "Aether",
+      "name": "noir",
       "appearance": "dark",
       "style": {
         "background": "#1c1c1c",

@@ -11,7 +11,7 @@ theme[title]="#c1c1c1"
 theme[hi_fg]="#aaaaaa"
 
 # Background color of selected item in processes box. #c1c1c1 maps to
-# the foreground role in aether (terminal selection wants inverted contrast),
+# the foreground role in noir (terminal selection wants inverted contrast),
 # which renders as plain white on dark themes - indistinguishable from the
 # main text. #333333 gives a subtle highlight that still reads on a
 # dark background and is invisible-but-harmless on light backgrounds.
