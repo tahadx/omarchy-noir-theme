@@ -5,6 +5,10 @@
 A dark theme for the whole desktop. Pure black background, warm grey text,
 muted sage accents. Includes matching Neovim and Zed themes.
 
+Built for current Omarchy (quattro) and the latest Lua-based Hyprland.
+Hyprland colors ship as `hyprland.lua`, applied on top of Omarchy's
+defaults by the theme system.
+
 ## Preview
 
 ![Noir preview](preview.png)
