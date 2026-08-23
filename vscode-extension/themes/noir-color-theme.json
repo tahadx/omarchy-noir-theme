@@ -3,7 +3,7 @@
 	"name": "Noir",
 	"type": "dark",
 	"colors": {
-		"focusBorder": "#333333",
+		"focusBorder": "#8a9a7b",
 		"foreground": "#c1c1c1",
 		"descriptionForeground": "#505050",
 		"errorForeground": "#8a9a7b",
@@ -14,7 +14,7 @@
 		"selection.background": "#333333",
 		"icon.foreground": "#c1c1c1",
 		"icon.hoverForeground": "#8a9a7b",
-		"icon.focusBorder": "#333333",
+		"icon.focusBorder": "#8a9a7b",
 
 		"window.activeBorder": "#000000",
 		"window.inactiveBorder": "#000000",
@@ -78,7 +78,7 @@
 		"list.inactiveSelectionForeground": "#c1c1c1",
 		"list.focusBackground": "#333333",
 		"list.focusForeground": "#c1c1c1",
-		"list.focusOutline": "#333333",
+		"list.focusOutline": "#8a9a7b",
 		"list.highlightForeground": "#8a9a7b",
 		"list.invalidItemForeground": "#8a9a7b",
 		"list.errorForeground": "#c1c1c1",
@@ -355,7 +355,7 @@
 		"problemsWarningIcon.foreground": "#8a9a7b",
 		"problemsInfoIcon.foreground": "#999999",
 
-		"peekView.border": "#333333",
+		"peekView.border": "#8a9a7b",
 		"peekViewEditor.background": "#000000",
 		"peekViewEditor.matchHighlightBackground": "#8a9a7b",
 		"peekViewResult.background": "#000000",
