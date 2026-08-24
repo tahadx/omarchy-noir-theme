@@ -1,0 +1,15 @@
+schema = 1
+
+[[plugins]]
+spec = "tahadx/noir.nvim"
+priority = 1000
+config = true
+
+[plugins.opts]
+variant = "pure_black"
+
+[[plugins]]
+spec = "LazyVim/LazyVim"
+
+[plugins.opts]
+colorscheme = "noir"
