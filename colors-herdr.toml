@@ -1,0 +1,28 @@
+schema = 1
+
+[theme]
+name = "noir"
+auto_switch = false
+dark_name = "Noir"
+light_name = "Noir"
+
+[theme.custom]
+accent = "#8a9a7b"
+panel_bg = "#000000"
+sidebar_bg = "#000000"
+active_row_bg = "#1c1c1c"
+selection_bg = "#333333"
+surface0 = "#1c1c1c"
+surface1 = "#333333"
+surface_dim = "#000000"
+overlay0 = "#505050"
+overlay1 = "#505050"
+text = "#c1c1c1"
+subtext0 = "#505050"
+mauve = "#999999"
+green = "#c1c1c1"
+yellow = "#888888"
+red = "#8a9a7b"
+blue = "#aaaaaa"
+teal = "#aa9988"
+peach = "#9ca98f"

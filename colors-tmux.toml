@@ -1,0 +1,13 @@
+schema = 1
+
+[theme]
+status_bg = "#000000"
+session_bg = "#8a9a7b"
+window_inactive_fg = "#505050"
+window_active_fg = "#8a9a7b"
+pane_border = "#333333"
+pane_active_border = "#8a9a7b"
+message_fg = "#8a9a7b"
+mode_bg = "#8a9a7b"
+mode_fg = "#000000"
+clock_color = "#8a9a7b"
